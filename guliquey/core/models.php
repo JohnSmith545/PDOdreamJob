@@ -44,7 +44,7 @@ function updateAUser($pdo, $user_id, $first_name, $last_name,
 					gender = ?, 
 					age = ?, 
 					email = ?, 
-					dream_job = ?, 
+					dream_job = ? 
 			WHERE user_id = ?";
 	$stmt = $pdo->prepare($sql);
 	
